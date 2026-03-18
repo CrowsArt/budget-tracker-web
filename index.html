@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Budget Tracker</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
   </head>
   <body>
     <div class="container">
       <header>
-      <h1>Budget Tracker</h1>
-      <p>Track your expenses, set budgets, and visualize spending trends.</p>
+        <h1>Budget Tracker</h1>
+        <p>Track your expenses, set budgets, and visualize spending trends.</p>
       </header>
       <div class="budget-section">
         <h2>Set your Budget</h2>
@@ -55,23 +58,23 @@
           <button type="submit">Add Expense</button>
         </form>
         <div class="analytics-section">
-            <h2>Budget Utilization</h2>
-            <div class="analytics-progress">
-                <span class="progress-value">0%</span>
-                <svg class="progress-svg">
-                    <circle class="progress-background" cx="60" cy="50" r="50" />
-                    <circle class="progress-bar" cx="50" cy="50" r="50" />
-                </svg>
-            </div>
-            <div id="budgetDetails">
-                <p>Total Budget: <span id="totalBudget">0</span></p>
-                <p>Total Expenses: <span id="totalExpenses">0</span></p>
-            </div>
+          <h2>Budget Utilization</h2>
+          <div class="analytics-progress">
+            <span class="progress-value">0%</span>
+            <svg class="progress-svg">
+              <circle class="progress-background" cx="60" cy="50" r="50" />
+              <circle class="progress-bar" cx="50" cy="50" r="50" />
+            </svg>
+          </div>
+          <div id="budgetDetails">
+            <p>Total Budget: <span id="totalBudget">0</span></p>
+            <p>Total Expenses: <span id="totalExpenses">0</span></p>
+          </div>
         </div>
 
         <div class="expense-list-section">
-            <h2>Expenses List</h2>
-            <ul id="expenseList"></ul>
+          <h2>Expenses List</h2>
+          <ul id="expenseList"></ul>
         </div>
       </div>
     </div>
